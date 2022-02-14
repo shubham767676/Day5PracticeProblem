@@ -13,7 +13,7 @@ public class Factorization {
 
 		for (int i = 1; i <= Number; i++) {
 			if (Number % i == 0) {
-				System.out.println("Value " + i);
+				System.out.println("Value is " + i);
 			}
 		}
 	}
