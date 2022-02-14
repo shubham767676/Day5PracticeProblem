@@ -16,7 +16,7 @@ public class HarmonicNumber {
 			System.out.println(result + " ");
 
 		}
-		System.out.println("");
+
 		System.out.println("Output of Harmonic Series is " + result);
 	}
 
