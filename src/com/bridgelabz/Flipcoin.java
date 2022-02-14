@@ -23,7 +23,7 @@ public class Flipcoin {
 					System.out.println("Heads");
 				} else {
 					tails++;
-					System.out.println("Tails");
+					System.out.println("Tails ");
 				}
 
 			}
