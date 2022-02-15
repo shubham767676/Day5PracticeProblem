@@ -32,6 +32,7 @@ public class Flipcoin {
 
 			System.out.println(("Head percentage: " + (float) (heads / totalCoin) * 100) + "\nTail percentage: "
 					+ (float) (tails / totalCoin) * 100);
+
 			// System.out.println("Tail percentage :" + tailPercentage);
 		}
 
