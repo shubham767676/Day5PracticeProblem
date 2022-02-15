@@ -4,20 +4,25 @@ import java.util.Scanner;
 
 public class PowerOf2 {
 
+	public static void PowerOf2() {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the power value of N");
+		int N = scanner.nextInt();
+		if (N < 31) {
+			for (int i = 0, powerOfTwo = 1; i < N; i++) {
+				System.out.println("2^" + i + " is " + powerOfTwo);
+				powerOfTwo *= 2;
+			}
+		} else {
+			System.out.println(N + " is greater than or equal to 31: ");
+		}
+		scanner.close();
+	}
+
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter a number :");
-		int num = sc.nextInt();
-
-		while (num % 2 == 0) {
-			num = num / 2;
-		}
-		if (num == 1) {
-			System.out.println("The number is power of two");
-		} else {
-			System.out.println("The number is not equal to power of two");
-		}
+		PowerOf2();
 	}
 
 }
